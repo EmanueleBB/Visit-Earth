@@ -1,0 +1,67 @@
+.imagesContainer{
+	width:100vw;
+	height:100vh;
+	min-height: 800px;
+	border:2px solid red;
+	box-sizing: border-box;
+	position:relative;
+}
+
+.divPrimoPiano{
+	position:absolute;
+	aspect-ratio:1;
+	bottom:0px;
+	left:0px;
+	z-index:101;
+	height:85%;
+}
+
+.divSecondoPiano{
+	position:absolute;
+	aspect-ratio:calc(2400/1771) ;
+	top:0px;
+	left:0px;
+	z-index:99;
+	width:100vw;
+}
+.divTerzoPiano{
+	position:absolute;
+	aspect-ratio:calc(2400/1771) ;
+	top:0px;
+	left:0px;
+	z-index:98;
+	width:100vw;
+}
+.divQuartoPiano{
+	position:absolute;
+	aspect-ratio:calc(119/204) ;
+	top:0px;
+	left:48.2%;
+	top:27%;
+	border:2px solid red;
+	z-index:97;
+	width:90px;
+
+}
+
+
+.divCielo{
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:96;
+	width:100vw;
+	height:50vh;
+}
+
+.homepageH1{
+	display: inline-block;
+	position:absolute;
+	z-index:98;
+	left:50%;
+	top:10%;
+	transform:translate(-50%,-50%);
+	color:white;
+	font-size: 90px;
+
+}
